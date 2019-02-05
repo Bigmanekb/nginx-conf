@@ -1,4 +1,6 @@
+#!/bin/bash
 sudo apt remove ffmpeg
+sudo apt-get update && sudo apt-get upgrade -y
 cd /usr/src
 git clone git://git.videolan.org/x264
 cd x264
