@@ -1,3 +1,4 @@
+sudo apt remove ffmpeg
 cd /usr/src
 git clone git://git.videolan.org/x264
 cd x264
